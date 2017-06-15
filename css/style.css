@@ -1,0 +1,195 @@
+
+body {
+    opacity: 0.9;
+    background-color: black;
+    font-size: 22px;
+    color: seashell;
+    font-family: helvetica;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+
+h2, h4, h3, h5{
+  text-align: center;
+  font-family: helvetica;
+  color: seashell;
+}
+
+/****Header****/
+
+.header {
+ height: 69px;
+ width: 100%;
+ border-bottom: solid 1px seashell;
+ position: fixed;
+ justify-content: space-between;
+ display: flex;
+ background-color: black;
+ z-index: 1;
+ }
+
+ img{
+   height: 50px;
+ }
+
+.logo {
+  height: 69px;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 10px;
+}
+
+.navigation {
+  height: 69px;
+  width: 500px;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+}
+
+li, a {
+  text-decoration: underline;
+  color: seashell;
+  font-family: helvetica;
+  list-style: none;
+  display: inline-flex;
+  margin-right: 10px;
+}
+
+/***Mission-Section***/
+
+.mission-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  width: 1200px;
+  height: 700px;
+  margin: auto;
+}
+
+.our-mission{
+  height: auto;
+  width: 1200px;
+  background-color: black;
+}
+
+
+/***Tea-Of-The-Month-Section***/
+
+.tea-section{
+  width: 1200px;
+  height: auto;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.teaofthemonth {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 1000px;
+  height: 100px;
+  margin: 30px;
+}
+
+.tea-image{
+  width: 300px;
+  height: 200px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.teas {
+  width: 1000px;
+  height: 600px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/***Location-Section***/
+
+.location-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  width: 1200px;
+  height: 500px;
+  margin: auto;
+  padding-top: 15px;
+}
+
+.inner-location-container{
+  display: flex;
+  width: 1200px;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin: 15px;
+}
+
+.downtown{
+  background-color: black;
+  opacity: 0.9;
+  margin: 15px 40px;
+  width: 300px;
+  height: 300px;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.east-bayside{
+  margin: 15px 40px;
+  background-color: black;
+  opacity: 0.9;
+  width: 300px;
+  height: 300px;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.oakdale{
+  width: 300px;
+  height: 300px;
+  margin: 15px 40px;
+  padding: 0;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  background-color: black;
+  flex-direction: column;
+  opacity: 0.9;
+}
+
+/***Footer***/
+
+.footer-container{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  height: 500px;
+  width: 1200px;
+}
+
+
+#copyright {
+  display: flex;
+  text-align: left;
+  padding-left: 20px;
+}
